@@ -38,7 +38,7 @@ This application allows you to connect to a serial COM port or a BLE device and 
 
 Lines received over Serial or BLE that start with `^` are treated as key–value frames.
 
-Example: ^Temp:25\tHum:60\n
+Example: `^Temp:25\tHum:60\n`
 
 - These lines are parsed and displayed in the right panel.
 - Syntax is similar to the Arduino Serial Plotter:
@@ -55,7 +55,7 @@ Example: ^Temp:25\tHum:60\n
 
 Lines starting with `~` are treated as plot data and are **not displayed in the terminal**.
 
-Example: ~Signal1:10\tSignal2:20\n
+Example: `~Signal1:10\tSignal2:20\n`
 
 - Each `key:value` pair is parsed.
 - Values are plotted in real time.
