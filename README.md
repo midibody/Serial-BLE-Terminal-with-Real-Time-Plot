@@ -72,3 +72,16 @@ Example: `~Signal1:10\tSignal2:20\n`
 - Left-click and drag to zoom.
 - Right-click and drag to pan.
 
+---
+
+## To install and run the application:
+
+- Ensure Python is installed on your computer
+- install required Python libraries, with the command: `pip install PySide6 pyqtgraph bleak pyserial`
+- Download fro, Github the 3 files: `main.py, terminal.py, BLEcom.py`
+- in a command line, type `python main.py`
+- It should open a window with the terminal
+- Select COM or BLE, this should list the available devices of this type
+- Select one and click 'Connect'
+
+  
